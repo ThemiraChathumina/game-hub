@@ -45,7 +45,7 @@ interface Props {
 
 const GameCard = ({ game }: Props) => {
   const hover = {
-    backgroundColor: "blue.700",
+    backgroundColor: "#4c4c4c",
     borderBottomLeftRadius: 10,
     borderBottomRightRadius: 10,
   };
