@@ -28,7 +28,7 @@ const SortSelector = ({ onSelectSortOrder, sortOrder }: Props) => {
   );
 
   return (
-    <chakra.div>
+    <>
       <Menu>
         <MenuButton as={Button} rightIcon={<BsChevronDown />}>
           Order by: {currentSortOrder?.label || "Relevence"}
@@ -48,7 +48,7 @@ const SortSelector = ({ onSelectSortOrder, sortOrder }: Props) => {
           ))}
         </MenuList>
       </Menu>
-    </chakra.div>
+    </>
   );
 };
 
